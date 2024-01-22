@@ -1,0 +1,280 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: black;
+    background-color: white;
+    font-size: 14px;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Ubuntu', sans-serif;
+    min-height: 100vh;
+}
+
+.wrapper {
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto; 
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header {
+    background-color: transparent;
+    height: 170px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow: visible;
+}
+
+header a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: 'Playfair Display', serif;
+}
+
+header #studio {
+    width: 30%;
+    font-size: 30px;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+header #menu {
+    width: 40%;
+    margin-right: 8%;
+    overflow: visible;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+header #menu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.wrapper #home-img {
+    margin-bottom: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+aside #about-me {
+    margin-bottom: 20px;
+}
+
+.wrapper h2 {
+    font-size: 30px;
+}
+
+.text {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    line-height: 24px;
+    color: black;
+}
+
+.wrapper .text {
+    margin-bottom: 98px;
+}
+
+.wrapper aside .text {
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header_art {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    color: #858585;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.wrapper aside h2 {
+    margin-bottom: 15px;
+}
+
+.wrapper article {
+    width: 53%;
+   /*  margin-left: auto;
+    margin-right: auto; */
+    margin-left: 6%;
+}
+
+.wrapper aside {
+    width: 25%;
+    /* margin-right: auto;
+    margin-left: auto; */
+    margin-right: 4%;
+}
+
+.wrapper aside nav i {
+    padding: 2%;
+    font-size: 18px;
+}
+
+.wrapper img {
+    margin-bottom: 60px;
+}
+
+.wrapper .text {
+    margin-bottom: 45px;
+}
+
+.wrapper #italic {
+    font-style: italic;
+}
+
+.wrapper span {
+    font-weight: 900;
+}
+
+#banner {
+    background-color: #f0f0f0;
+    height: 435px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+
+#banner p, #banner .container {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#banner .header_art {
+    margin-top: auto;
+    margin-left: 14.5%;
+}
+
+#banner .container {
+    width: 80%;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#banner .container p {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+#banner .container img {
+    margin-bottom: 30px;
+}
+
+.wrapper #comments {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.wrapper #comments #comm {
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.wrapper #comments p,
+.wrapper #comments a,
+.wrapper #comments input {
+    margin-left: 7.083%;
+}
+
+.wrapper #comments #name {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.wrapper #comments a {
+    margin-bottom: 50px;
+}
+
+.wrapper #comments .text {
+    margin-bottom: 40px;
+}
+
+.wrapper #comments input[type=text] {
+    width: 50%;
+    height: 60px;
+    margin-bottom: 60px;
+    padding: 12px 30px;
+}
+
+.wrapper #comments #sub-comm {
+   font-size: 20px;
+   color: black;
+}
+
+footer {
+    height: 130px;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 30px;
+}
+
+footer #left {
+    margin-left: 15%;
+    width: 20%;
+}
+
+footer #left ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer #right {
+    margin-right: 15%;
+    width: 15%;
+}
+
+footer #right ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
